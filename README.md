@@ -1,5 +1,8 @@
 # Test-Time Verification for Frozen Vision-Language-Action Policies
 
+[![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?style=for-the-badge&logo=readthedocs&logoColor=white)](#)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Verifier-yellow?style=for-the-badge)](https://huggingface.co/dow0w/smolvla-libero-test-time-verifier)
+
 Code for training and evaluating a lightweight verifier that selects among stochastic action candidates of a frozen
 vision-language-action (VLA) policy. At every decision step the policy samples K candidate action chunks, the verifier
 scores each candidate, and the highest-scoring candidate is executed. The policy weights are never updated.
