@@ -1,0 +1,9 @@
+torch==2.11.0
+numpy==2.2.6
+scipy==1.18.1
+scikit-learn==1.9.1
+safetensors==0.8.0
+transformers==5.5.4
+huggingface_hub==1.33.0
+# plus lerobot==0.6.2 with the SmolVLA policy and the LIBERO environment (robosuite==1.4.0, mujoco==3.8.1), and libero (see README)
+# tested with Python 3.12
